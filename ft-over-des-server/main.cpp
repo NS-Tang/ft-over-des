@@ -8,7 +8,7 @@ extern "C"
     int passiveTCP(const char* service, int qlen);
 }
 
-#include "../../../../../../h/des.h"
+#include "../des.h"
 
 constexpr int QLEN = 8;
 constexpr auto OUT_NAME = "ft-over-des-server";
