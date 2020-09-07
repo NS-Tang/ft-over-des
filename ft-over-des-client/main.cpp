@@ -8,7 +8,7 @@ extern "C"
 {
 	int connectTCP(const char* host, const char* service);
 }
-#include "../../../../../../h/des.h"
+#include "../des.h"
 
 inline void do_client(char const* host, char const* service, char const* source_path, char const* dest_path)
 {
